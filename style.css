@@ -1,0 +1,61 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}p {
+  font-family: 'Indie Flower';
+}
+ h1{
+   font-family: 'DM Serif Text', serif; line-height: 1.25; color: #5F9EA0;}
+header, footer {
+ background: lightblue;}
+ .contacts{
+   background: #9D6381}
+.photos{
+  background: #40E0D0
+  background-image: url(https://paulvanderlaken.files.wordpress.com/2017/12/snow6.gif?w=816&zoom=2);
+}
+.job, .about{
+  background: #483D8B
+}
+body{
+  backgrond: blue
+}
+ .friends{
+  float: right;
+  width: 250px;
+  height: 150px;
+  border-radius: 50%
+}
+.code{
+  float: right;
+  border-radius: 50%;
+}
+.office {
+  float: right;
+  border-radius: 50%;
+}
+.insta{
+  width: 300px;
+  height: 300px;
+}
+.twitter{
+  float: right;
+  width: 300px;
+  height: 300px;
+}
+.Areospace{
+  float: right;
+  border-radius: 50%;
+}
+.job{
+  background-image: url(https://i.gifer.com/origin/d2/d2faff75e02534a3c687da2b7c4a95ab_w200.gif);
+}
+.About{
+  background-color: pink;
+background-image: url(https://lh3.googleusercontent.com/M1HI7EWK1wcN5ODWOtAoAwDpZeB_CtF87nVxRP_rNSMpiubxPEH2YbTei02HxVQvA43qJZc9NtAacT6Glz9EEu0mIfK4hO6ncnL3FGHCyzo3tiEsVj0bUw3ajBibeT9Fuc3pmpI8w1ugGVdYx2y5_naiI5vGyDN6rw5GCPhRVflq0IfRzjJtjmqhkRTtjXIgxM9COGgcbNnCP-zQlLgcEjuxDlnfpSV6hFI-ZiSpLt5D6Ezq0kglFiAqLSHEgr_8Na4D7lfR_uKpewrPbFbJnWuMeWB_H8ksRwoh1cBjL65M6weUA-fDXiXaXwVqQN2fKYlYJsD-9TnPGusgkYAt1yysaEqZVmErDUmXiwfAkTkXvXYGZ2ITDMiWQFE8d-fKPScnJWC8gCIyE4TTMIcPqy5bNtFdfosEzaV_qlMnb_d6MKuk6X8MDZA2WUq6fAAM4_b1OaKuZI8LPNU6Q7N5pppEq3XSSG7XnqYkOOWscIOms3jQ2ZIv3rQLaO4PeG-hMcP1otvA5P7NgkUaHU4_7WHNIAL7XhmpoHnIrboCrsEii4MpJ7MVuJSXKq7EtrthjzMDqB08egkd0R3nryoH0bMUaXT88sczvKuEBXxlj2hS-SX1ML8-_8LIzZNZ96xLIcQQn-BfuLvEA7wKhnBjsqMwOLLciTU=w1052-h903-no);
+
+
+}
